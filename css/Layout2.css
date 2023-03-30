@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgba(250, 212, 0, 0.938);
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.left{
+    float: left;
+    width: 20%;
+    background-color: rgba(250, 212, 0, 0.938);
+    height: 80.8vh;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.main{
+  display: flex;
+  flex: 1;
+  height: 68vh;
+}
+main{
+    float: left;
+    width: 60%;
+    flex: 6 6 100px;
+    background-color: rgba(250, 212, 0, 0.938);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.right{
+    float: left;
+    width: 10%;
+    flex: 0 1 100px;
+    background-color: rgba(250, 212, 0, 0.938);
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.foot{
+    float: left;
+    width: 79%;
+    background-color: rgba(250, 212, 0, 0.938);
+    flex: 5 5 100px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.space{
+    display: flex;
+    flex: 1;
+    height: 100px;    
+}
+
